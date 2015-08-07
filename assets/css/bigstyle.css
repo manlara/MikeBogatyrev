@@ -1,0 +1,113 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: #111;
+    overflow: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size:28px;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    position: absolute;
+    width: 500%;
+    height: 100%;
+    z-index: 0;
+}
+
+/* Text */
+
+h1,
+ {
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+}
+
+p {
+    line-height: 1.4;
+    text-shadow: 1px 1px 1px #000;
+}
+
+a,
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #40a5c6;
+}
+
+h1 a,
+h1 a:hover,
+h1 a:visited {
+    text-decoration: none;
+}
+
+p a {
+    font-weight: 700;
+}
+
+/* Header */
+
+header {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    z-index: 999;
+    color: #fff;
+    padding: 60px;
+    margin: -200px 0 0 -200px;
+    text-align: center;
+  
+
+   
+}
+
+
+
+header p {
+    font-family: "Josefin Slab", serif;
+    font-style: normal;
+}
+
+/* Video Pages */
+
+.screen {
+    position: relative;
+    height: 100%;
+    width: 20%; /*  NOTE: numVideos/100%  */;
+    float: left;
+    overflow: hidden;
+}
+
+.big-image {
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+.video-title {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    opacity: .5;
+    margin: 40px 0 0 0;
+    padding: 0;
+    line-height: .65;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+
